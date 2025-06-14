@@ -1,0 +1,21 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+*.sqlite3
+*.db
+instance/            # Flask's instance folder, often contains db file
+
+# Node.js dependencies
+frontend_vue/node_modules/
+frontend_vue/dist/   # Vite build output
+
+# Logs and temporary files
+*.log
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# IDE specific files
+.idea/ # IntelliJ/PyCharm
+.vscode/ # VS Code
+*.iml # IntelliJ
